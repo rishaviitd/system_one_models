@@ -53,6 +53,8 @@ parts += [
     text(72, 660, "SCORE COMPARISON", 16, "#77717a", 750, extra='letter-spacing="1.5"'),
     text(1008, 660, "Macro F1 (%)", 16, "#77717a", 550, "end"),
 ]
+if args.summary:
+    parts.append(text(72, 706, "Banking77 customer queries classified into 77 banking intents", 19, "#5e5961", 450))
 all_rows = [
     ("Jev", "TypeSafe AI · reference", 79.70, "#adb4c1"),
     ("Kev-4B", "Before fine-tuning", 84.95, "#29272b"),
@@ -71,7 +73,7 @@ for idx, (name, detail, score, color) in enumerate(rows):
     if is_final:
         parts.append(rect(56, y - 30, 968, 98, "#fff", 16, 'stroke="#efd5e8" stroke-width="1.5"'))
     if args.summary and idx == 2:
-        name, detail = "Fine-tuned model", "Kev-4B · Banking77"
+        name, detail = "Fine-tuned model", "Kev-4B · fine-tuned"
     parts.extend([
         text(88, y, name, 23, "#211e23", 700),
         text(88, y + 27, detail, 15, "#77717a", 450),
