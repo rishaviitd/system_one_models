@@ -16,7 +16,7 @@ Training and evaluation use the [Banking77 dataset on Hugging Face](https://hugg
 
 Macro F1 on the full 3,080-example test split:
 
-![Banking77 macro F1 comparison, including the Jev reference and Kev before and after fine-tuning](asset/linkedin_banking77_macro_f1.png)
+![Banking77 macro F1 comparison, including the Jev reference and Kev before and after fine-tuning](asset/benchmarking.png)
 
 Jev's 79.7% is the reference score supplied for comparison. Kev scores are calculated from this experiment's saved test predictions. The TypeSafe AI logo in the chart is from the [official TypeSafe AI profile](https://github.com/typesafe-ai).
 

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Create a portrait LinkedIn graphic for the Banking77 macro-F1 experiment."""
+"""Create the Banking77 macro-F1 benchmarking graphic."""
 from pathlib import Path
 import subprocess
 
 OUT = Path(__file__).resolve().parent
-SVG = OUT / "linkedin_banking77_macro_f1.svg"
-PNG = OUT / "linkedin_banking77_macro_f1.png"
+SVG = OUT / "benchmarking.svg"
+PNG = OUT / "benchmarking.png"
 W, H = 1080, 1350
 
 
@@ -24,7 +24,7 @@ def rect(x, y, width, height, fill, rx=0, extra=""):
             f'rx="{rx}" fill="{fill}" {extra}/>')
 
 
-print("Building portrait Banking77 scorecard…", flush=True)
+print("Building Banking77 benchmarking graphic…", flush=True)
 parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <defs>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ec9bd4"/><stop offset="1" stop-color="#c92ca2"/></linearGradient>
