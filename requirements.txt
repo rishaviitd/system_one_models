@@ -1,0 +1,12 @@
+# Kev trainer dependencies (Python 3.12 recommended; upstream supports >=3.12,<3.14)
+accelerate>=1.15.0
+datasets>=3.0
+huggingface_hub>=0.34
+numpy>=2.5.3
+peft>=0.21
+pydantic>=2.9
+PyYAML>=6.0
+safetensors>=0.5
+scikit-learn>=1.9.1
+torch>=2.6,<2.9
+transformers>=5.17,<6
