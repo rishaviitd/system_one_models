@@ -65,14 +65,8 @@ all_rows = [
 rows = [all_rows[i] for i in (0, 1, 4)] if args.summary else all_rows
 start_y, track_x, track_w = (790, 72, 810) if args.summary else (728, 72, 810)
 row_gap = 150 if args.summary else 111
-# Keep the reference scale attached to the bars as one small axis.
-axis_y = 765 if args.summary else 703
-for tick, label, anchor in [(0, "0", "start"), (50, "50", "middle"), (100, "100", "end")]:
-    x = track_x + track_w * tick / 100
-    parts.append(text(x, axis_y, label, 13, "#8b858d", 500, anchor))
-    line_top = 772 if args.summary else 710
-    line_bottom = 1240 if args.summary else 1247
-    parts.append(f'<line x1="{x}" y1="{line_top}" x2="{x}" y2="{line_bottom}" stroke="#dedbd8" stroke-width="1" stroke-dasharray="3 7"/>')
+# Values sit beside each bar, so omit axis ticks and grid lines to keep the
+# comparison clean and avoid detached scale labels in the portrait layout.
 for idx, (name, detail, score, color) in enumerate(rows):
     y = start_y + idx * row_gap
     is_final = idx == (len(rows) - 1)

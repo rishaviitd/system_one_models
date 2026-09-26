@@ -21,12 +21,6 @@
 <text x="972" y="548" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#39343b" text-anchor="end" >77 intents</text>
 <text x="72" y="660" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="750" fill="#77717a" text-anchor="start" letter-spacing="1.5">SCORE COMPARISON</text>
 <text x="1008" y="660" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="550" fill="#77717a" text-anchor="end" >Macro F1 (%)</text>
-<text x="72.0" y="765" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#8b858d" text-anchor="start" >0</text>
-<line x1="72.0" y1="772" x2="72.0" y2="1240" stroke="#dedbd8" stroke-width="1" stroke-dasharray="3 7"/>
-<text x="477.0" y="765" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#8b858d" text-anchor="middle" >50</text>
-<line x1="477.0" y1="772" x2="477.0" y2="1240" stroke="#dedbd8" stroke-width="1" stroke-dasharray="3 7"/>
-<text x="882.0" y="765" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#8b858d" text-anchor="end" >100</text>
-<line x1="882.0" y1="772" x2="882.0" y2="1240" stroke="#dedbd8" stroke-width="1" stroke-dasharray="3 7"/>
 <text x="88" y="790" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#211e23" text-anchor="start" >Jev</text>
 <text x="88" y="817" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="450" fill="#77717a" text-anchor="start" >TypeSafe AI · reference</text>
 <rect x="72" y="833" width="810" height="15" rx="7" fill="#e9e7e5" />
