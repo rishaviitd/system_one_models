@@ -39,8 +39,6 @@ parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" vi
 {rect(0, 0, W, 16, "url(#accent)")}
 ''']
 parts += [
-    rect(72, 68, 10, 10, "#c92ca2", 5),
-    text(96, 80, "BANKING77  ·  FINE-TUNING EXPERIMENT", 16, "#706872", 700, extra='letter-spacing="1.1"'),
     text(72, 182, "Fine-tuning Kev-4B", 54, "#17151a", 750),
     text(72, 244, "raised Macro F1 by", 54, "#17151a", 750),
     text(72, 322, "+13.66 points", 72, "#c92ca2", 800),
@@ -81,11 +79,7 @@ for idx, (name, detail, score, color) in enumerate(rows):
         rect(track_x, y + 43, round(track_w * score / 100), 15, color, 7),
         text(988, y + 55, f"{score:.2f}%", 23, "#211e23", 750, "end"),
     ])
-parts += [
-    rect(72, 1300, 936, 1, "#dedbd8"),
-    text(72, 1327, "Credits: TypeSafe AI (Jev reference) · Jared Palmer (Kev-4B) · Banking77 dataset", 13, "#716c73", 450),
-    "</svg>"
-]
+parts += ["</svg>"]
 SVG.write_text("\n".join(parts), encoding="utf-8")
 print(f"Wrote editable SVG: {SVG.name}", flush=True)
 print("Rendering 1080 × 1350 PNG…", flush=True)

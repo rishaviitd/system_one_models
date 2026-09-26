@@ -6,8 +6,6 @@
 <rect x="0" y="0" width="1080" height="1350" rx="0" fill="#f8f7f4" />
 <rect x="0" y="0" width="1080" height="16" rx="0" fill="url(#accent)" />
 
-<rect x="72" y="68" width="10" height="10" rx="5" fill="#c92ca2" />
-<text x="96" y="80" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#706872" text-anchor="start" letter-spacing="1.1">BANKING77  ·  FINE-TUNING EXPERIMENT</text>
 <text x="72" y="182" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="750" fill="#17151a" text-anchor="start" >Fine-tuning Kev-4B</text>
 <text x="72" y="244" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="750" fill="#17151a" text-anchor="start" >raised Macro F1 by</text>
 <text x="72" y="322" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" fill="#c92ca2" text-anchor="start" >+13.66 points</text>
@@ -37,6 +35,4 @@
 <rect x="72" y="1133" width="810" height="15" rx="7" fill="#e9e7e5" />
 <rect x="72" y="1133" width="756" height="15" rx="7" fill="url(#accent)" />
 <text x="988" y="1145" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750" fill="#211e23" text-anchor="end" >93.36%</text>
-<rect x="72" y="1300" width="936" height="1" rx="0" fill="#dedbd8" />
-<text x="72" y="1327" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="450" fill="#716c73" text-anchor="start" >Credits: TypeSafe AI (Jev reference) · Jared Palmer (Kev-4B) · Banking77 dataset</text>
 </svg>
