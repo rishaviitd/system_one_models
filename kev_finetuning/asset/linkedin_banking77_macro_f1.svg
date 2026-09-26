@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ec9bd4"/><stop offset="1" stop-color="#c92ca2"/></linearGradient>
+  <linearGradient id="tint" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbecf7"/><stop offset="1" stop-color="#fff8fd"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1080" height="1350" rx="0" fill="#f8f7f4" />
+<rect x="0" y="0" width="1080" height="16" rx="0" fill="url(#accent)" />
+
+<rect x="72" y="68" width="10" height="10" rx="5" fill="#c92ca2" />
+<text x="96" y="80" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#706872" text-anchor="start" letter-spacing="1.1">BANKING77  ·  FINE-TUNING EXPERIMENT</text>
+<text x="72" y="182" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="750" fill="#17151a" text-anchor="start" >Fine-tuning Kev-4B</text>
+<text x="72" y="244" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="750" fill="#17151a" text-anchor="start" >raised Macro F1 by</text>
+<text x="72" y="322" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" fill="#c92ca2" text-anchor="start" >+13.66 points</text>
+<text x="76" y="370" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="450" fill="#5e5961" text-anchor="start" >vs. the Jev reference score</text>
+<rect x="72" y="426" width="936" height="174" rx="24" fill="url(#tint)" stroke="#efd5e8" stroke-width="2"/>
+<text x="108" y="473" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="750" fill="#8d3477" text-anchor="start" letter-spacing="1.2">BEST KEV CHECKPOINT  ·  EPOCH 3</text>
+<text x="108" y="555" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" fill="#211a20" text-anchor="start" >93.36%</text>
+<text x="366" y="548" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#5e5961" text-anchor="start" >Macro F1</text>
+<text x="972" y="490" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#827985" text-anchor="end" letter-spacing="1.1">FULL TEST SPLIT</text>
+<text x="972" y="519" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#39343b" text-anchor="end" >3,080 examples</text>
+<text x="972" y="548" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#39343b" text-anchor="end" >77 intents</text>
+<text x="72" y="660" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="750" fill="#77717a" text-anchor="start" letter-spacing="1.5">SCORE COMPARISON</text>
+<text x="1008" y="660" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="550" fill="#77717a" text-anchor="end" >Macro F1 (%)</text>
+<text x="72.0" y="703" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#8b858d" text-anchor="start" >0</text>
+<line x1="72.0" y1="710" x2="72.0" y2="1247" stroke="#dedbd8" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="477.0" y="703" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#8b858d" text-anchor="middle" >50</text>
+<line x1="477.0" y1="710" x2="477.0" y2="1247" stroke="#dedbd8" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="882.0" y="703" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="500" fill="#8b858d" text-anchor="end" >100</text>
+<line x1="882.0" y1="710" x2="882.0" y2="1247" stroke="#dedbd8" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="88" y="728" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#211e23" text-anchor="start" >Jev</text>
+<text x="88" y="755" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="450" fill="#77717a" text-anchor="start" >TypeSafe AI · reference</text>
+<rect x="72" y="771" width="810" height="15" rx="7" fill="#e9e7e5" />
+<rect x="72" y="771" width="646" height="15" rx="7" fill="#adb4c1" />
+<text x="988" y="783" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750" fill="#211e23" text-anchor="end" >79.70%</text>
+<text x="88" y="839" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#211e23" text-anchor="start" >Kev-4B</text>
+<text x="88" y="866" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="450" fill="#77717a" text-anchor="start" >Before fine-tuning</text>
+<rect x="72" y="882" width="810" height="15" rx="7" fill="#e9e7e5" />
+<rect x="72" y="882" width="688" height="15" rx="7" fill="#29272b" />
+<text x="988" y="894" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750" fill="#211e23" text-anchor="end" >84.95%</text>
+<text x="88" y="950" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#211e23" text-anchor="start" >Epoch 1</text>
+<text x="88" y="977" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="450" fill="#77717a" text-anchor="start" >Kev-4B · fine-tuned</text>
+<rect x="72" y="993" width="810" height="15" rx="7" fill="#e9e7e5" />
+<rect x="72" y="993" width="744" height="15" rx="7" fill="#e8a4d4" />
+<text x="988" y="1005" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750" fill="#211e23" text-anchor="end" >91.81%</text>
+<text x="88" y="1061" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#211e23" text-anchor="start" >Epoch 2</text>
+<text x="88" y="1088" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="450" fill="#77717a" text-anchor="start" >Kev-4B · fine-tuned</text>
+<rect x="72" y="1104" width="810" height="15" rx="7" fill="#e9e7e5" />
+<rect x="72" y="1104" width="754" height="15" rx="7" fill="#d968b8" />
+<text x="988" y="1116" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750" fill="#211e23" text-anchor="end" >93.08%</text>
+<rect x="56" y="1142" width="968" height="98" rx="16" fill="#fff" stroke="#efd5e8" stroke-width="1.5"/>
+<text x="88" y="1172" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#211e23" text-anchor="start" >Epoch 3</text>
+<text x="88" y="1199" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="450" fill="#77717a" text-anchor="start" >Kev-4B · fine-tuned</text>
+<rect x="72" y="1215" width="810" height="15" rx="7" fill="#e9e7e5" />
+<rect x="72" y="1215" width="756" height="15" rx="7" fill="url(#accent)" />
+<text x="988" y="1227" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="750" fill="#211e23" text-anchor="end" >93.36%</text>
+<rect x="72" y="1300" width="936" height="1" rx="0" fill="#dedbd8" />
+<text x="72" y="1327" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="450" fill="#716c73" text-anchor="start" >Credits: TypeSafe AI (Jev reference) · Jared Palmer (Kev-4B) · Banking77 dataset</text>
+</svg>
